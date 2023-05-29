@@ -1,0 +1,59 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      
+<header id="header">
+  <div>
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRng8GUURjh8ADQg-lZtg6Rh3fPLza8WiOMVaotqvd_EsDHYMZcLuXCStuovbyB3UvCcAc&usqp=CAU" id="header-img">
+   <h1>SwApp</h1>
+   
+   </div>
+   <div>
+     <nav class="nav-link">
+       <ul class="menu">
+         <li><a href="#get-started">Get started</a></li>
+         <li><a href="#how-to-barter?">How to barter?</a></li>
+         <li><a href="#Post-your-item">Post your item</a></li>
+         </ul>
+       </nav>
+     </div>
+  </header>
+     <div id="get-started"><caption>Barter from your conform</caption></div>
+     <form id="form" method="post">
+       <label> <input type="email" name="email" placeholder="Enter your Email Address" id="email"> <br></br>
+        <input type="submit" name="submit" value="Get Started!" id="submit" action="https://www.freecodecamp.com/email-submit">
+        </label>
+      </form>
+     <div id="content">
+       <ul>
+         <li>Create an account to start bartering</li>
+         <li id="how-to-barter?">Basicaly you can choose any item to swap it or sell it as you wish</li>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/syR7EI2klqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" id="video" allowfullscreen></iframe>
+         <li id="Post-your-item">Post your item now and make the best deal!</li>
+         </ul>
+         <div>
+           <form id="form-2">
+             <p>Give it a name:</p> <input type="text" name="text"> 
+             <p>Select your product:</p> <input type="file" name="file">
+             <p>How much it cost?</p> <input type="number" name="number" min="0.00" max="10000.00" step="0.01">
+            <p>Description:</p>
+             <textarea rows="4" colms="5"></textarea>
+             <p>What products are you interested in?</p>
+             <textarea rows="3" colums="6"></textarea>
+             <p>What do you want to do with your product?</p>
+             <input type="radio" name="barter">Barter
+             <input type="radio" name="barter">Sell
+             <input type="radio" name="barter"checked>Both
+             </form>
+             <button type="button" onclick="alert"('Your item is already posted!')>Post it!</button>
+           </div>
+       </div>
+  
+  <footer>Privacy Terms Contact <br>Copyright 2022, SwApp</footer>
+      </body>
+      </html>
